@@ -28,3 +28,7 @@
     z-index: -1;
     filter: blur(5px);
 }
+
+div[id] {
+  scroll-margin-top: 80px; /* Adjust based on your navbar height */
+}
