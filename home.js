@@ -7,6 +7,9 @@ new Splide('.splide', {
     interval: 1500,
     fixedWidth: '19rem',
     gap: '2em',
+    autoScroll: {
+        speed: 1,
+    },
 
     breakpoints: {
         576: {
