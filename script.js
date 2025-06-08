@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     autoplay: false,
     fixedWidth: '19rem',
     gap: '2em',
+    arrows: false,
 
     breakpoints: {
       576: {
@@ -25,9 +26,9 @@ document.addEventListener('DOMContentLoaded', function () {
     },
 
     autoScroll: {
-      speed: 1,
+      speed: .5,
       pauseOnHover: true,
-      pauseOnFocus: true,
+      pauseOnFocus: false,
     },
   });
 
