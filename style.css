@@ -15,9 +15,19 @@ body {
     background-color: #efefef;
 }
 
+@media (min-width: 992px) {
+    .f-card-w{
+        width: 180px;
+    }
+
+    .c-card-bg{
+        width: 180px;
+    }
+}
+
 .c-card-bg {
-    background-color: #dddddd;
-    border: solid 1px #cccccc;
+    border: solid 1px #e2e2e2;
+    background-color: #efefef;
 }
 
 /* HERO BACKGROUND VIDEO */
@@ -65,18 +75,18 @@ body {
     content: '';
     position: absolute;
     bottom: -20px;
-    left: 40%;
+    left: 38%;
     transform: translateX(-50%);
-    width: 80%;
+    width: 70%;
     height: 6px;
-    background: rgb(224, 206, 206);
+    background: rgba(224, 206, 206, 0.75);
     border-radius: 50%;
     z-index: -1;
     filter: blur(5px);
 }
 
 div[id] {
-    scroll-margin-top: 80px;
+    scroll-margin-top: 90px;
 }
 
 #scrollToTopBtn {
