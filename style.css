@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(128, 128, 128, 0.6);
+    background-color: rgba(128, 128, 128, 0.5);
 }
 
 .nav-bg-color {
@@ -39,7 +39,7 @@ body {
 }
 
 .video-opacity{
-    opacity: .80;
+    opacity: .9;
 }
 
 .overlay-content {
