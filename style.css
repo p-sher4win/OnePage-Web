@@ -4,12 +4,10 @@ body {
 
 .nav-bg-color {
     background-image: linear-gradient(to right, #434343 0%, black 100%);
-
-
 }
 
 .footer-bg {
-    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    background-image: linear-gradient(to left, #434343 0%, black 100%);
 }
 
 .s-card-bg {
