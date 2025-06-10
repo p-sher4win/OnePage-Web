@@ -28,30 +28,6 @@ body {
     overflow: hidden;
 }
 
-@media (max-width: 414px) {
-    .video-container {
-        height: 35vh;
-    }
-}
-
-@media (min-width: 768px) {
-    .video-container {
-        height: 40vh;
-    }
-}
-
-@media (min-width: 992px) {
-    .video-container {
-        height: 30vh;
-    }
-}
-
-@media (min-width: 1400px) {
-    .video-container {
-        height: 40vh;
-    }
-}
-
 #background-video {
     position: absolute;
     top: 0;
@@ -87,9 +63,9 @@ body {
     content: '';
     position: absolute;
     bottom: -20px;
-    left: 50%;
+    left: 40%;
     transform: translateX(-50%);
-    width: 90%;
+    width: 80%;
     height: 6px;
     background: rgb(224, 206, 206);
     border-radius: 50%;
