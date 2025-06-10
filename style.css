@@ -38,7 +38,7 @@ body {
     z-index: -1;
 }
 
-.video-opacity{
+.video-opacity {
     opacity: .9;
 }
 
@@ -49,7 +49,7 @@ body {
 }
 
 .small-text {
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .btn-custom {
