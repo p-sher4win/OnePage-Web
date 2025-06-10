@@ -1,5 +1,25 @@
 body {
-    background-color: #f8f9fa;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.nav-bg-color {
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+
+
+}
+
+.footer-bg {
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+.s-card-bg {
+    border: solid 1px #e2e2e2;
+    background-color: #efefef;
+}
+
+.c-card-bg {
+    background-color: #dddddd;
+    border: solid 1px #cccccc;
 }
 
 /* HERO BACKGROUND VIDEO */
@@ -10,25 +30,25 @@ body {
 
 @media (max-width: 767.98px) {
     .video-container {
-        height: 35vh;
+        height: 37vh;
     }
 }
 
 @media (min-width: 768px) {
     .video-container {
-        height: 50vh;
+        height: 40vh;
     }
 }
 
 @media (min-width: 992px) {
     .video-container {
-        height: 35vh;
+        height: 30vh;
     }
 }
 
 @media (min-width: 1400px) {
     .video-container {
-        height: 45vh;
+        height: 40vh;
     }
 }
 
@@ -81,11 +101,159 @@ div[id] {
     scroll-margin-top: 80px;
 }
 
-.btn-wa-custom{
-    height: 30px;
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    display: none;
+}
+
+/* CSS */
+.button-6 {
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+}
+
+.button-6:hover,
+.button-6:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:hover {
+    transform: translateY(-1px);
+}
+
+.button-6:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+
+
+/* CSS */
+.button-30 {
+    align-items: center;
+    appearance: none;
+    background-color: #ffd500;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 40px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+
+.button-30:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.button-30:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+
+/* CSS */
+.button-60 {
+    align-items: center;
+    appearance: none;
+    background: #44A08D;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #093637, #44A08D);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #093637, #44A08D);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 1px solid #83c5be;
+    border-radius: .375em;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: .9rem;
+    height: 2.3em;
+    justify-content: center;
+    line-height: 1.5;
+    padding: calc(.5em - 1px) 1em;
+    position: relative;
     text-align: center;
-    border-radius: 0;
-    background-color: #208b3a;
-    color: white;
-    
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.button-60:active {
+    border-color: #3e8914;
+    outline: 0;
+}
+
+.button-60:focus {
+    border-color: #e8fccf;
+    outline: 0;
+}
+
+.button-60:hover {
+    border-color: #134611;
+}
+
+.button-60:focus:not(:active) {
+    box-shadow: rgba(63, 125, 32, .25) 0 0 0 .125em;
+}
+
+.img-shadow {
+    box-shadow: rgba(255, 255, 255, 0.197) 0px 10px 36px 0px, rgba(255, 255, 255, 0.356) 0px 0px 0px 1px;
 }

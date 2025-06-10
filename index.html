@@ -24,7 +24,7 @@
 
 <body>
   <!-- NAVBAR -->
-  <div class="container sticky-top text-bg-light">
+  <div class="container-fluid sticky-top nav-bg-color">
     <div class="container py-3">
       <nav class="navbar">
         <div class="d-flex align-items-center w-100">
@@ -32,7 +32,7 @@
           <!-- NAVBAR BRAND LOGO -->
           <div class="d-none d-md-block">
             <a href="#" class="navbar-brand">
-              CF Sound
+              <img src="images/brand.png" width="100px" alt="brand">
             </a>
           </div>
 
@@ -40,22 +40,22 @@
           <div class="col-12 ms-md-auto col-md-7">
             <ul class="navbar-nav d-flex flex-row justify-content-between">
               <li class="nav-item">
-                <a href="#feature" class="text-decoration-none text-body-tertiary text-capitalize">
+                <a href="#feature" class="text-decoration-none text-white text-capitalize">
                   Why Us
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#service" class="text-decoration-none text-body-tertiary text-capitalize">
+                <a href="#service" class="text-decoration-none text-white text-capitalize">
                   Services
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#gallery" class="text-decoration-none text-body-tertiary text-capitalize">
+                <a href="#gallery" class="text-decoration-none text-white text-capitalize">
                   Events
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#contact" class="text-decoration-none text-body-tertiary text-capitalize">
+                <a href="#contact" class="text-decoration-none text-white text-capitalize">
                   Contact
                 </a>
               </li>
@@ -68,31 +68,32 @@
   </div>
 
   <!-- HERO SECTION -->
-  <div class="container py-3 py-md-4 py-lg-5 video-container">
+  <div class="container-fluid p-1">
 
-    <!-- BACKGROUND VIDEO -->
-    <video autoplay loop muted id="background-video" preload="none" poster="images/heroBg.png">
-      <source src="images/heroBg.mp4" type="video/mp4">
-    </video>
+    <div class="video-container rounded">
+      <!-- BACKGROUND VIDEO -->
+      <video autoplay loop muted id="background-video" preload="none" poster="images/heroBg.png">
+        <source src="images/heroBg.mp4" type="video/mp4">
+      </video>
 
-    <div class="row overlay-content">
+      <div class="row overlay-content mt-md-4 mt-lg-5 p-2 p-md-0">
 
-      <!-- TITLE WORDS -->
-      <div class="col-5 col-lg-6 d-flex flex-column justify-content-center align-items-center">
-        <h1 class="display-1 mb-2 mb-md-4 fw-bold text-center">Lorem ipsum</h1>
-        <h6 class="mb-4 mb-md-5 fw-medium text-center">Lorem ipsum dolor</h6>
-        <a href="https://wa.me/917972387362?text=Hi%20CF%20Sounds!%20I%20would%20like%20to%20book%20your%20sound%20system%20services%20for%20an%20event.%0A%0AEvent%20Details%3A%0AOccasion%3A%20%5BEnter%20Occasion%5D%0ADate%3A%20%5BEnter%20Date%5D%0ATime%3A%20%5BEnter%20Timings%5D%0ALocation%3A%20%5BEnter%20Venue%5D%0A%0APlease%20share%20your%20availability%20and%20pricing."
-          class="btn btn-sm text-capitalize fw-semibold shadow-sm btn-custom px-2 py-auto px-md-3 px-lg-4 py-lg-2 mx-auto">book
-          now</a>
-      </div>
-
-      <!-- HERO LOGO IMAGE -->
-      <div class="col-7 col-lg-6 d-flex justify-content-center align-items-center hero-img-container">
-        <div class="img-wrapper position-relative">
-          <img src="https://placehold.co/300" class="img-fluid rounded-circle" width="300px" alt="logo">
+        <!-- TITLE WORDS -->
+        <div class="col-5 col-lg-6 d-flex flex-column justify-content-center align-items-center">
+          <h1 class="display-1 mb-2 mb-md-4 fw-bold text-center">Lorem ipsum</h1>
+          <h6 class="mb-4 mb-md-5 fw-medium text-center">Lorem ipsum dolor</h6>
+          <a href="https://wa.me/917972387362?text=Hi%20CF%20Sounds!%20I%20would%20like%20to%20book%20your%20sound%20system%20services%20for%20an%20event.%0A%0AEvent%20Details%3A%0AOccasion%3A%20%5BEnter%20Occasion%5D%0ADate%3A%20%5BEnter%20Date%5D%0ATime%3A%20%5BEnter%20Timings%5D%0ALocation%3A%20%5BEnter%20Venue%5D%0A%0APlease%20share%20your%20availability%20and%20pricing."
+            class="button-30 mx-auto fw-semibold text-capitalize">book now</a>
         </div>
-      </div>
 
+        <!-- HERO LOGO IMAGE -->
+        <div class="col-7 col-lg-6 d-flex justify-content-center align-items-center">
+          <div class="img-wrapper position-relative">
+            <img src="images/logo.png" class="img-fluid" width="300px" alt="logo">
+          </div>
+        </div>
+
+      </div>
     </div>
   </div>
 
@@ -104,7 +105,7 @@
       <!-- TITLE TEXT -->
       <div class="col-12 col-lg-4 text-center mb-5 mb-lg-0">
         <h1 class="display-4 m-0 text-capitalize fw-semibold">why choose us</h1>
-        <p class="m-0 small-text">Lorem ipsum dolor</p>
+        <p class="m-0 text-body-tertiary fst-italic"><small>Your event deserves the best in sound</small></p>
       </div>
 
       <!-- FEATURES LIST -->
@@ -149,7 +150,7 @@
       <!-- TITLE TEXT -->
       <div class="col-12 text-center mb-5">
         <h1 class="display-4 m-0 text-capitalize fw-semibold">services</h1>
-        <p class="m-0 small-text">Lorem ipsum dolor</p>
+        <p class="m-0 text-body-tertiary fst-italic"><small>From small gatherings to grand celebrations</small></p>
       </div>
 
       <!-- SERVICE LIST -->
@@ -157,7 +158,7 @@
         <div class="row gy-5">
 
           <!-- SERVICE 1 -->
-          <div class="col-10 col-md-5 d-flex mx-auto border border-light-subtle rounded shadow-sm">
+          <div class="col-10 col-md-5 d-flex mx-auto rounded shadow-sm s-card-bg">
             <img src="https://placehold.co/80" class="img-fluid m-1 rounded-circle" width="80px" alt="service">
             <div class="ms-2 my-auto">
               <h6 class="text-uppercase">Service 1</h6>
@@ -166,7 +167,7 @@
           </div>
 
           <!-- SERVICE 2 -->
-          <div class="col-10 col-md-5 d-flex mx-auto border border-light-subtle rounded shadow-sm">
+          <div class="col-10 col-md-5 d-flex mx-auto rounded shadow-sm s-card-bg">
             <img src="https://placehold.co/80" class="img-fluid d-none d-md-block m-1 rounded-circle" width="80px"
               alt="service">
             <div class="me-2 ms-md-2 me-md-0 my-auto">
@@ -178,7 +179,7 @@
           </div>
 
           <!-- SERVICE 3 -->
-          <div class="col-10 col-md-5 d-flex mx-auto border border-light-subtle rounded shadow-sm">
+          <div class="col-10 col-md-5 d-flex mx-auto rounded shadow-sm s-card-bg">
             <img src="https://placehold.co/80" class="img-fluid m-1 rounded-circle" width="80px" alt="service">
             <div class="ms-2 my-auto">
               <h6 class="text-uppercase">Service 3</h6>
@@ -187,7 +188,7 @@
           </div>
 
           <!-- SERVICE 4 -->
-          <div class="col-10 col-md-5 d-flex mx-auto border border-light-subtle rounded shadow-sm">
+          <div class="col-10 col-md-5 d-flex mx-auto rounded shadow-sm s-card-bg">
             <img src="https://placehold.co/80" class="img-fluid d-none d-md-block m-1 rounded-circle" width="80px"
               alt="service">
             <div class="me-2 ms-md-2 me-md-0 my-auto">
@@ -199,7 +200,7 @@
           </div>
 
           <!-- SERVICE 5 -->
-          <div class="col-10 col-md-5 d-flex mx-auto border border-light-subtle rounded shadow-sm">
+          <div class="col-10 col-md-5 d-flex mx-auto rounded shadow-sm s-card-bg">
             <img src="https://placehold.co/80" class="img-fluid m-1 rounded-circle" width="80px" alt="service">
             <div class="ms-2 my-auto">
               <h6 class="text-uppercase">Service 5</h6>
@@ -208,7 +209,7 @@
           </div>
 
           <!-- SERVICE 6 -->
-          <div class="col-10 col-md-5 d-flex mx-auto border border-light-subtle rounded shadow-sm">
+          <div class="col-10 col-md-5 d-flex mx-auto rounded shadow-sm s-card-bg">
             <img src="https://placehold.co/80" class="img-fluid d-none d-md-block m-1 rounded-circle" width="80px"
               alt="service">
             <div class="me-2 ms-md-2 me-md-0 my-auto">
@@ -232,7 +233,7 @@
 
       <div class="col-12 text-center mb-5">
         <h1 class="display-4 m-0 text-capitalize fw-semibold">events</h1>
-        <p class="m-0 small-text">Lorem ipsum dolor</p>
+        <p class="m-0 text-body-tertiary fst-italic"><small>Snapshots from our recent events</small></p>
       </div>
 
       <div class="col-12 splide mx-auto">
@@ -258,33 +259,36 @@
 
       <div class="col-12 text-center mb-5">
         <h1 class="display-4 m-0 text-capitalize fw-semibold">contact</h1>
-        <p class="m-0"><small>
-          Get in Touch with Us
-        </small></p>
+        <p class="m-0 text-body-tertiary fst-italic"><small>Get in touch with us</small></p>
       </div>
 
       <div class="col-12 col-md-8 col-lg-6 text-center mx-auto">
         <div class="row gy-5 mx-auto">
 
-          <div class="col-7 d-flex flex-column align-items-center text-center border shadow-sm pt-2 pb-4 mx-auto">
-            <i class="bi bi-telephone display-1 mb-4"></i>
+          <div class="col-7 d-flex flex-column align-items-center text-center shadow-sm mx-auto pt-3 pb-4 c-card-bg">
+            <img src="images/ph.png" width="50px" class="mb-4" alt="wa">
+
             <h6 class="text-capitalize fw-semibold">Phone Number</h6>
             <p class="px-md-5 px-lg-0"><small class="fw-medium">
-              <a href="tel:+917972387362" class="link-secondary link-underline-secondary link-offset-3 link-underline-opacity-25 link-underline-opacity-100-hover">+91 79723 87362</a>
-            </small></p>
+                <a href="tel:+917972387362"
+                  class="link-secondary link-underline-secondary link-offset-3 link-underline-opacity-25 link-underline-opacity-100-hover">+91
+                  79723 87362</a>
+              </small></p>
           </div>
 
-          <div class="col-7 d-flex flex-column align-items-center text-center border shadow-sm pt-2 pb-4 mx-auto">
-            <i class="bi bi-whatsapp display-1 mb-4"></i>
+          <div
+            class="col-7 d-flex flex-column align-items-center text-center shadow-sm pt-2 pb-4 mx-auto pt-3 pb-4 c-card-bg">
+            <img src="images/wa.png" width="50px" class="mb-4" alt="wa">
             <h6 class="text-capitalize fw-semibold mb-3">WhatsApp</h6>
             <p class="px-md-5 px-lg-0"><small class="fw-medium">
-              <a href="https://wa.me/917972387362?text=Hi%20CF%20Sounds!%20I%20would%20like%20to%20book%20your%20sound%20system%20services%20for%20an%20event.%0A%0AEvent%20Details%3A%0AOccasion%3A%20%5BEnter%20Occasion%5D%0ADate%3A%20%5BEnter%20Date%5D%0ATime%3A%20%5BEnter%20Timings%5D%0ALocation%3A%20%5BEnter%20Venue%5D%0A%0APlease%20share%20your%20availability%20and%20pricing."
-            class="btn btn-sm btn-wa-custom px-3 py-auto shadow-sm" target="_blank">Let's Chat</a>
-            </small></p>
+                <a href="https://wa.me/917972387362?text=Hi%20CF%20Sounds!%20I%20would%20like%20to%20book%20your%20sound%20system%20services%20for%20an%20event.%0A%0AEvent%20Details%3A%0AOccasion%3A%20%5BEnter%20Occasion%5D%0ADate%3A%20%5BEnter%20Date%5D%0ATime%3A%20%5BEnter%20Timings%5D%0ALocation%3A%20%5BEnter%20Venue%5D%0A%0APlease%20share%20your%20availability%20and%20pricing."
+                  class="button-60 text-decoration-none btn btn-sm" target="_blank">Message to Book</a>
+              </small></p>
           </div>
 
-           <div class="col-7 d-flex flex-column align-items-center text-center border shadow-sm pt-2 pb-4 mx-auto">
-            <i class="bi bi-geo-alt-fill display-1 mb-4"></i>
+          <div
+            class="col-7 d-flex flex-column align-items-center text-center shadow-sm pt-2 pb-4 mx-auto pt-3 pb-4 c-card-bg">
+            <img src="images/loc.png" width="50px" class="mb-4" alt="location">
             <h6 class="text-capitalize fw-semibold">Location</h6>
             <p class="px-md-5 px-lg-0"><small class="fw-medium text-body-secondary">Goa</small></p>
           </div>
@@ -296,17 +300,23 @@
 
 
   <!-- FOOTER SECTION -->
-  <div class="container-fluid bg-light">
+  <div class="container-fluid footer-bg">
     <div class="container py-4">
-      <p class="text-center text-body-tertiary m-0 mb-4 fw-semibold">Copyright @2025 CF Sounds</p>
-      <p class="text-center text-body-secondary m-0 p-0"><small>code by</small></p>
-      <p class="text-center text-body-tertiary m-0"><small>
-        <i class="bi bi-linkedin"></i>
-        <a href="https://www.linkedin.com/in/sherwin-4-pereira/"
-          class="link-secondary link-underline-opacity-50">p-sher4win</a>
-      </small></p>
+      <p class="text-center text-light m-0 mb-2 fw-semibold">Copyright @2025 CF Sounds</p>
+      <p class="text-center text-light m-0 p-0 small-text"><small>designed by </small>
+        <small>
+          <a href="https://www.linkedin.com/in/sherwin-4-pereira/"
+            class="link-light link-underline-opacity-50">p-sher4win</a>
+        </small>
+      </p>
     </div>
   </div>
+
+
+  <!-- SCROLL TO TOP BUTTON -->
+  <button id="scrollToTopBtn" class="button-6" role="button" title="Go to Top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
 
 
   <!-- BOOTSTRAP 5 JS CDN -->
@@ -320,6 +330,7 @@
   <script
     src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
 
+  <!-- CUSTOM JS -->
   <script src="script.js"></script>
 </body>
 
