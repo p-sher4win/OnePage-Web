@@ -1,5 +1,23 @@
 body {
-    background-color: rgba(128, 128, 128, 0.5);
+    background-color: rgba(128, 128, 128, 0.35);
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text-gradient-color {
+    background-image: linear-gradient(110.3deg, rgba(73, 93, 109, 1) 4.3%, rgba(49, 55, 82, 1) 96.7%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subtitle-font {
+    font-family: "Alumni Sans SC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .nav-bg-color {
@@ -16,11 +34,11 @@ body {
 }
 
 @media (min-width: 992px) {
-    .f-card-w{
+    .f-card-w {
         width: 180px;
     }
 
-    .c-card-bg{
+    .c-card-bg {
         width: 180px;
     }
 }
