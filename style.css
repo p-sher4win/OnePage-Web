@@ -21,12 +21,9 @@ body {
 }
 
 .hero-title-font {
-    font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .nav-bg-color {
