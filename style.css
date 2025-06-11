@@ -26,6 +26,13 @@ body {
     font-style: normal;
 }
 
+.font-color {
+    background-image: linear-gradient( -35deg,  rgb(113, 113, 113) 21.2%, rgba(247,30,30,1) 100.3% );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .nav-bg-color {
     background-image: linear-gradient(to right, #434343 0%, black 100%);
 }
